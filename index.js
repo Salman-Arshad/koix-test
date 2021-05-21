@@ -2,8 +2,8 @@
 var process = require('child_process');
 var colors = require('colors');
 var path = require('path');
-var process = require("process")
-appName = process.argv[2]
+var appName = require("process").argv[2]
+// appName = process.argv[2]
 var templateDir = path.join(__dirname, 'cra-template-koix');
 
 // console.log(x);
